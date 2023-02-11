@@ -7,13 +7,6 @@ import TodoCreate from "./components/TodoCreate";
 import TodoFilter from "./components/TodoFilter";
 import TodoList from "./components/TodoList";
 
-// const initialStateTodos = [
-//   { id: 1, title: "Complete online Javascript bluuweb Curse", completed: true },
-//   { id: 2, title: "Go to the gym", completed: false },
-//   { id: 3, title: "10 minutos meditation", completed: false },
-//   { id: 4, title: "Pick up groceries", completed: true },
-//   { id: 5, title: "Complete todo app on Frontend Mentor", completed: false },
-// ];
 
 const initialStateTodos = JSON.parse(localStorage.getItem("todos")) || [];
 
